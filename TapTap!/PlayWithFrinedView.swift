@@ -25,6 +25,7 @@ struct PlayWithFrinedView: View {
         self.presentationMode.wrappedValue.dismiss()
     }
     
+    // check if someone ended game
     func checkifend(){
         if playerred.score == 0 || playerblue.score == 0{
             withAnimation {
@@ -33,7 +34,7 @@ struct PlayWithFrinedView: View {
         }
     }
     
-    //Func checks who won and return what player as String
+    // return who won the game
     func checkwhowin()->String{
         
         if playerblue.score == 0 && playerred.score != 0{
