@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75AC9280243E474B00FC2C04 /* PrepareToMultiplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AC927F243E474B00FC2C04 /* PrepareToMultiplayer.swift */; };
 		75CAFA21243BD42100A33DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CAFA20243BD42100A33DCD /* AppDelegate.swift */; };
 		75CAFA23243BD42100A33DCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CAFA22243BD42100A33DCD /* SceneDelegate.swift */; };
 		75CAFA26243BD42100A33DCD /* TapTap_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75CAFA24243BD42100A33DCD /* TapTap_.xcdatamodeld */; };
@@ -16,6 +17,9 @@
 		75CAFA30243BD42400A33DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CAFA2E243BD42400A33DCD /* LaunchScreen.storyboard */; };
 		75CAFA3B243BD42500A33DCD /* TapTap_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CAFA3A243BD42500A33DCD /* TapTap_Tests.swift */; };
 		75CAFA46243BD42500A33DCD /* TapTap_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CAFA45243BD42500A33DCD /* TapTap_UITests.swift */; };
+		75CC6BED243E12980049B2D5 /* WinInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC6BEC243E12980049B2D5 /* WinInfo.swift */; };
+		75D58039243BE0E0004D706D /* PlayAloneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D58038243BE0E0004D706D /* PlayAloneView.swift */; };
+		75D5803B243C01FA004D706D /* PlayWithFrinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5803A243C01FA004D706D /* PlayWithFrinedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75AC927F243E474B00FC2C04 /* PrepareToMultiplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareToMultiplayer.swift; sourceTree = "<group>"; };
 		75CAFA1D243BD42100A33DCD /* TapTap!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TapTap!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CAFA20243BD42100A33DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75CAFA22243BD42100A33DCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		75CAFA41243BD42500A33DCD /* TapTap!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TapTap!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75CAFA45243BD42500A33DCD /* TapTap_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTap_UITests.swift; sourceTree = "<group>"; };
 		75CAFA47243BD42500A33DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75CC6BEC243E12980049B2D5 /* WinInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinInfo.swift; sourceTree = "<group>"; };
+		75D58038243BE0E0004D706D /* PlayAloneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAloneView.swift; sourceTree = "<group>"; };
+		75D5803A243C01FA004D706D /* PlayWithFrinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWithFrinedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				75CAFA20243BD42100A33DCD /* AppDelegate.swift */,
 				75CAFA22243BD42100A33DCD /* SceneDelegate.swift */,
 				75CAFA27243BD42100A33DCD /* ContentView.swift */,
+				75D58038243BE0E0004D706D /* PlayAloneView.swift */,
+				75D5803A243C01FA004D706D /* PlayWithFrinedView.swift */,
+				75AC927F243E474B00FC2C04 /* PrepareToMultiplayer.swift */,
+				75CC6BEC243E12980049B2D5 /* WinInfo.swift */,
 				75CAFA29243BD42400A33DCD /* Assets.xcassets */,
 				75CAFA2E243BD42400A33DCD /* LaunchScreen.storyboard */,
 				75CAFA31243BD42400A33DCD /* Info.plist */,
@@ -270,8 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D5803B243C01FA004D706D /* PlayWithFrinedView.swift in Sources */,
+				75AC9280243E474B00FC2C04 /* PrepareToMultiplayer.swift in Sources */,
 				75CAFA26243BD42100A33DCD /* TapTap_.xcdatamodeld in Sources */,
 				75CAFA21243BD42100A33DCD /* AppDelegate.swift in Sources */,
+				75D58039243BE0E0004D706D /* PlayAloneView.swift in Sources */,
+				75CC6BED243E12980049B2D5 /* WinInfo.swift in Sources */,
 				75CAFA28243BD42100A33DCD /* ContentView.swift in Sources */,
 				75CAFA23243BD42100A33DCD /* SceneDelegate.swift in Sources */,
 			);
